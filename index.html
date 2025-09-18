@@ -2,19 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>web-qr-galore</title>
-    <meta name="description" content="Lovable Generated Project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>Secure Image Viewer - QR Scanner & Encrypted Gallery</title>
+    <meta name="description" content="Mobile web app for secure image viewing with QR code scanning, WebSocket connectivity, and AES decryption" />
     <meta name="author" content="Lovable" />
+    <meta name="theme-color" content="#3b82f6" />
 
-    <meta property="og:title" content="web-qr-galore" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <meta property="og:title" content="Secure Image Viewer - QR Scanner & Encrypted Gallery" />
+    <meta property="og:description" content="Mobile web app for secure image viewing with QR code scanning, WebSocket connectivity, and AES decryption" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:title" content="Secure Image Viewer" />
+    <meta name="twitter:description" content="Secure mobile web app for encrypted image viewing" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <!-- PWA Meta Tags -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Secure Viewer" />
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: wss: ws:; img-src 'self' data: blob: https:;" />
   </head>
 
   <body>
